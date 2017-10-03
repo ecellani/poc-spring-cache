@@ -16,6 +16,11 @@ apply plugin: 'org.springframework.boot'
 
 sourceCompatibility = 1.8
 
+jar {
+    baseName = 'poc-spring-cache'
+    version =  '1.0-SNAPSHOT'
+}
+
 repositories {
     mavenCentral()
 }

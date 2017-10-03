@@ -1,0 +1,5 @@
+spring:
+  cache:
+    cache-names: token
+    caffeine:
+      spec: expireAfterAccess=1s
